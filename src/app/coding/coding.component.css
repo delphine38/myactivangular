@@ -2,9 +2,19 @@
 mobile
 **/
 @media (max-width: 991px){
-  h1{
+  img{
+    width: 80%;
+    text-align: center;
     padding-left: 20px;
+    padding-top: 20px;
   }
+
+}
+
+/**
+tablette
+**/
+@media (max-width: 1440px){
   img{
     width: 80%;
     text-align: center;

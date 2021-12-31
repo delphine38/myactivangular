@@ -1,3 +1,4 @@
+
 /**
 mobile
 **/
@@ -9,4 +10,13 @@ mobile
     padding-top: 20px;
   }
 
+}
+
+/**
+tablette
+**/
+@media (max-width: 1440px) {
+  section img{
+    width: 80%;
+  }
 }

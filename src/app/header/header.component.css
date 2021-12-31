@@ -1,3 +1,16 @@
+/**
+tablette
+**/
+@media (max-width: 1440px){
+  img{
+    width: 50%;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+
+}
+
 @media (max-width: 991px){
  img{
    width: 80%;

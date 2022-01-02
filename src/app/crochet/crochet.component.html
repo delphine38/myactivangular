@@ -1,26 +1,17 @@
 <h2><a class="nav-link" [routerLink]="['/home']">accueil</a></h2>
 
-
-<h1>Mes projets au crochet .. </h1>
+<h1> {{ title }} </h1>
 
 <div class="container">
-  <div class="row">
-    <article class="col-lg-5 col-sm-12 text-center">
-      <img src="assets/crochetpelotte.png" alt="crochet" width="50%">
-      <h2>Le titre</h2>
-
-    </article>
-
-    <article class="col-lg-5 col-sm-12 text-center">
-      <img src="assets/crochetpelotte.png" alt="crochet" width="50%">
-      <h2>Le titre</h2>
-
-    </article>
-
-    <article class="col-lg-5 col-sm-12 text-center">
-      <img src="assets/crochetpelotte.png" alt="crochet" width="50%">
-      <h2>Le titre</h2>
-
-    </article>
+  <div class="d-flex flex-wrap">
+    <div *ngFor="let crochet of crochets">
+      <div class="col-4">
+        <article>
+          <img src="{{ crochet.crochetImage }}" width="200px">
+          <p><strong>Son nom : {{ crochet.crochetName }}</strong></p>
+          <p><strong>Toute sa description : {{ crochet.description }}</strong></p>
+        </article>
+      </div>
+    </div>
   </div>
 </div>

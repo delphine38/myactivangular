@@ -12,20 +12,20 @@ export class BikeComponent implements OnInit {
     {
       bikeId: 1,
       bikeName: 'VTT',
-      bikeImage: 'assets/velos.png',
+      bikeImage: 'assets/vttsentier.png',
       description: 'super journée ensoleillée à faire du vtt'
     },
     {
       bikeId: 2,
       bikeName: 'Course',
-      bikeImage: 'assets/velos.png',
+      bikeImage: 'assets/coursevia.png',
       description: 'super journée ensoleillée à faire du vélo de course'
 
     },
     {
       bikeId: 3,
       bikeName: 'VTC',
-      bikeImage: 'assets/velos.png',
+      bikeImage: 'assets/routevtc.png',
       description: 'super journée ensoleillée à faire du VTC, du vélo sur tout les chemin'
 
     }

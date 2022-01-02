@@ -6,6 +6,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bike.component.css']
 })
 export class BikeComponent implements OnInit {
+  public title = 'Mes super balades';
+
+  public bikes: any[] = [
+    {
+      bikeId: 1,
+      bikeName: 'VTT',
+      bikeImage: 'assets/velos.png',
+      description: 'super journée ensoleillée à faire du vtt'
+    },
+    {
+      bikeId: 2,
+      bikeName: 'Course',
+      bikeImage: 'assets/velos.png',
+      description: 'super journée ensoleillée à faire du vélo de course'
+
+    },
+    {
+      bikeId: 3,
+      bikeName: 'VTC',
+      bikeImage: 'assets/velos.png',
+      description: 'super journée ensoleillée à faire du VTC, du vélo sur tout les chemin'
+
+    }
+  ];
 
   constructor() { }
 

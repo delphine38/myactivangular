@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("assets/fondcouleur1.jpg");
+  position: no re;
+}
 h1{
   padding-left: 20px;
 }
